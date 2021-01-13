@@ -45,7 +45,7 @@ function setup() {
 
 function draw() {
   
-  background(0);
+  background("green");
   
     
   if(ground.x<0) {
@@ -83,7 +83,7 @@ function draw() {
   
   stroke("black");
   textSize(20);
-  fill("black");
+  fill("red");
   survivalTime=Math.ceil(frameCount/frameRate()) 
   text("Survival Time: "+ survivalTime, 100,50);
 }
